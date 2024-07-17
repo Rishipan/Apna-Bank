@@ -1,0 +1,68 @@
+/* Container for the transactions page */
+.transactions-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Table for displaying transactions */
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transactions-table th,
+.transactions-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.transactions-table th {
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+}
+
+.transactions-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.transactions-table tr:hover {
+  background-color: #ddd;
+}
+
+/* Styling for the transaction cards */
+.transaction-card {
+  width: auto;
+  max-width: 600px;
+  background: rgb(76, 135, 243);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.transaction-card-header {
+  font-size: 18px;
+  text-align: center;
+  color: darkblue;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.transaction-card-body {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.transaction-card-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}

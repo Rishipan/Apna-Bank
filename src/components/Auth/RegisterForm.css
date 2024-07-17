@@ -1,0 +1,121 @@
+.register-container {
+  width: auto;
+  max-width: 600px;
+  background: rgb(76, 135, 243);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0, auto;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.register-form h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.register-input-box {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  /* margin-left: 10px; */
+}
+
+.register-input-box input,
+.register-input-box select {
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px;
+  padding-right: 45px;
+  cursor: pointer;
+  /* margin-left: 10px; */
+}
+
+.register-input-box input::placeholder,
+.register-input-box select::placeholder {
+  color: #fff;
+}
+
+/* .input-box select:focus,
+.input-box input:focus {
+  border-color: rgb(157, 62, 97);
+} */
+
+.register-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.register-forgot-password {
+  font-size: 12px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.register-forgot-password a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.register-forgot-password a:hover {
+  text-decoration: underline;
+  color: #8ad28a;
+}
+
+.register-container button {
+  width: 100%;
+  height: 45px;
+  background: darkblue;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  align-items: center;
+}
+
+.register-container button:hover {
+  background-color: rgb(39, 59, 97);
+}
+
+.register-container .register-link {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register-link p a {
+  color: #90a7f0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+  color: rgb(138, 210, 138);
+}
+
+.register-input-box select option {
+  background-color: cornflowerblue;
+  color: #fff;
+}

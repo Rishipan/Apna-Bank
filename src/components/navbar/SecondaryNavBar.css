@@ -1,0 +1,34 @@
+.secondary-navbar {
+  background-color: cadetblue;
+  width: 100%;
+  height: max-content;
+}
+
+.secondary-navbar-menu {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.secondary-navbar-item {
+  margin-right: 20px;
+}
+
+.secondary-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.secondary-navbar-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Add more styles as needed */

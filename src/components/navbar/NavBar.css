@@ -1,0 +1,125 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: midnightblue;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.username {
+  color: rgb(63, 4, 4);
+}
+.navbar-logo img {
+  height: 40px;
+}
+
+.user-icon {
+  font-size: 16px;
+  color: cornflowerblue;
+  margin-right: 10px;
+}
+
+/* .navbar-profile {
+  list-style-type: none;
+} */
+
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-left: 40px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar-button {
+  display: flex;
+}
+
+.btn-login,
+.btn-signup {
+  margin-left: 20px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: cornflowerblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-login:hover,
+.btn-signup:hover {
+  background-color: blue;
+}
+
+.navbar-logo-login {
+  display: flex;
+  right: 0;
+  top: 55%;
+  position: absolute;
+  left: 200px;
+  transform: translateY(-50%);
+  padding: 20px;
+}
+
+.navbar-logo-login img {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-logo-login img:hover {
+  transform: scale(1.05);
+}
+
+.navbar-text-register {
+  width: 600px;
+  position: absolute;
+  transform: translateY(-50%);
+  left: 50%;
+  top: 55%;
+  padding: 25px;
+  background-color: #d38cba;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transform: translateY(-50%);
+  left: 100px;
+  position: absolute;
+}
+
+.navbar-text-register p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Update link styles */
+.navbar-text-register a {
+  color: #c0599f;
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-text-register a:hover {
+  color: #8f3d7e; /* Change link color on hover */
+}
